@@ -1,0 +1,32 @@
+<nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class = "navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target = "navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+    aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="container d-flex justify-content-center alling-items-center">
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <a class="navbar-brand" href="javascript:void(0)">BRAND</a>
+   <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+     <li class="nav-item">
+       <a class="nav-link" aria-current="page"[routerLink]="['/']" routerLinkActive="active"
+       [routerLinkActiveOptions]="{exact:true}">Home</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" aria-current="page"[routerLink]="['/post-attivi']"
+      routerLinkActive="active">attivi</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page"[routerLink]="['/post-inattivi']" routerLinkActive="active"
+      >post-inacttivi</a>
+    </li>
+   </ul>
+  </div>
+  </div>
+</div>
+</nav>
+<header>
+  <h1 class = "text-center" m-5>Todo List</h1>
+</header>
+
